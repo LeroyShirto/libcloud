@@ -173,6 +173,8 @@ DRIVERS = {
     ('libcloud.compute.drivers.ciscoccs', 'CiscoCCSNodeDriver'),
     Provider.NTTA:
     ('libcloud.compute.drivers.ntta', 'NTTAmericaNodeDriver'),
+    Provider.ONE_AND_ONE:
+    ('libcloud.compute.drivers.oneandone', 'OneAndOneNodeDriver'),
 
     # Deprecated
     Provider.CLOUDSIGMA_US:

@@ -159,6 +159,7 @@ class Provider(Type):
     NTTA = 'ntta'
     MEDONE = 'medone'
     CISCOCCS = 'ciscoccs'
+    ONE_AND_ONE = '1And1'
 
     # OpenStack based providers
     HPCLOUD = 'hpcloud'
